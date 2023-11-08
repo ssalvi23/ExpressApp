@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pharmacy Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Pharmacy Management System</h1>
+    
+    <div class="inventory">
+        <!-- Your inventory display table remains here -->
+    </div>
+
+    <div class="add-product">
+        <h2>Add Product</h2>
+        <form action="/add-product" method="post">
+            <input type="text" name="name" placeholder="Product Name">
+            <input type="number" name="quantity" placeholder="Quantity">
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
